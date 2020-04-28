@@ -129,11 +129,22 @@ external_music_ext = akb
 ## How to install on 7h 2.x
 > **WARNING:** This method is NOT SUPPORTED officially by 7h team. Please use at your own risk. DO NOT approach 7h team if something is not working properly.
 
-1) Go to your 7h installation path
-2) Go to `Resources\Game Driver`
-3) Rename `7H_GameDriver.dll` to `_7H_GameDriver.dll`
-4) Install FFNx following instructions here: https://github.com/julianxhokaxhiu/FFNx#1998-eidos-release
-5) Rename `FFNx.dll` to `7H_GameDriver.dll`
+1) Download the latest version of FFNx here: https://github.com/julianxhokaxhiu/FFNx/releases
+2) Unzip the newly downloaded package
+3) Go to your 7h installation path (Default path is C:/7th Heaven)
+4) Go to "Resources\Game Driver"
+5) Rename "7H_GameDriver.dll" to "_7H_GameDriver.dll"
+6) Place the "Shaders" folder from the FFNx download here
+7) Rename "FFNx.dll" to "7H_GameDriver.dll"
+8) Navigate to where your game is installed (wherever FF7.exe is located)
+9) Place the remaining files from FFNx here and overwrite if needed
+10) If there is one, rename "7H_GameDriver.dll" to "_7H_GameDriver.dll" in this folder too
+11) Rename "FFNx.dll" to "7H_GameDriver.dll"
+12) To configure the driver, right click "FFNx.cfg" and open it in notepad and make your edits
+
+**NOTE**
+Any lines that you alter in this file must have the # deleted from the start for it to be readable.
+Once this change has been made, you will no longer be able to change these settings via 7H using the Setings, you MUST change them from THIS file.
 
 Click Play and enjoy!
 
